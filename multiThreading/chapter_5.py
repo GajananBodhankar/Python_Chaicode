@@ -7,7 +7,6 @@ import threading
 def download(url):
     print(f"Starting to download")
     response=requests.get(url)
-    
 urls=[
 "https://api.example.com/users",
 "https://api.example.com/users/42",

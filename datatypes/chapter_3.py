@@ -3,6 +3,7 @@
 list1=[ 25, 30,10,15, 20 ]
 
 twiceListMap=list(map(lambda num: num*2, list1))
+
 twiceListComprehension=[num*2 for num in list1]
 print(twiceListComprehension, twiceListMap)
 

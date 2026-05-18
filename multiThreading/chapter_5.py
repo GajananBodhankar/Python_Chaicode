@@ -66,7 +66,6 @@ urls=[
 "https://university.edu/api/students/567/results",
 "https://sportsdata.io/matches/live",
 "https://inventory.app/items?category=laptops&sort=price",
-
 ]
 
 start = time.time()
